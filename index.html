@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script>
+            function tryUnmuteAudio() {
+                const audioElement = document.getElementById('autoplay-audio');
+                audioElement.muted = false;
+            }
+        </script>
+    </head>
+<body>
+Text here!
+<audio  id="autoplay-audio" src="https://mega.nz/file/vTQURAxA#AJ8SthAmUYRR-cQIkCcw8iP-1nragIku78Su7x4A_3s" autoplay muted onplaying="tryUnmuteAudio()">
+    Your browser does not support the HTML5 audio element.
+  </audio>
+</body>
+</html>
